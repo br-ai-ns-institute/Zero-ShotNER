@@ -63,7 +63,7 @@ labels=np.array(labels)
 # pickle.dump(labels,outfile)
 # outfile.close()
 
-model_path = "./Tarsmodel"  
+model_path = "./model"  
 tokenizer.save_pretrained(model_path)
 
 
