@@ -1,4 +1,4 @@
-# Zero-ShorNER
+# Zero-Shot BioNER
 Zero-Shot and Few-Shot methods for NER in biomedical domain
 
 ## Converted datasets
