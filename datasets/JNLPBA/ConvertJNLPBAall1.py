@@ -19,7 +19,7 @@ map_labels = {"O": 0,
         "I-cell_type":1, # vratiti na 2 ako se koristi 2 za drudu i ostale reči u entitetu, prva reč je 1
         "B-protein" :1,
        "I-protein":1}  # vratiti na 2 ako se koristi 2 za drudu i ostale reči u entitetu, prva reč je 1
-with open(r"C:\Users\Lenovo\OneDrive - IR INSTITUT ZA VESTACKU INTELIGENCIJU SRBIJE\Desktop\Bayer\Datasets\Biomedical_data\5.JNLPBA\training\Genia4ERtask1.iob2") as f:
+with open(r"C:\Users\Lenovo\OneDrive - IR INSTITUT ZA VESTACKU INTELIGENCIJU SRBIJE\Desktop\Bayer\Datasets\Biomedical_data\5.JNLPBA\ceoDataset\Genia4ERAll.iob2") as f:
     korpus=list()
     ids=list()
     texts=list()
@@ -97,8 +97,8 @@ with open(r"C:\Users\Lenovo\OneDrive - IR INSTITUT ZA VESTACKU INTELIGENCIJU SRB
     
 
 #Isbacila sam kolonu Tag_vector jer Nikoli za treniranje ne treba
-df=pd.DataFrame(list(zip(ids,klas_vectors,token_vectors, num_vectors)), columns=['id','class','text', 'labels'])
-df.set_index('id')
+df=pd.DataFrame(list(zip(ids,klas_vectors,token_vectors, num_vectors)), columns=['ids','class','text', 'labels'])
+df.set_index('ids')
 
 
 df.insert(0, 'cor', 'JNLPBA') # dodajemo kolonu na prvom mestu, cor(naziv kolone), nazic korpusa (JNLPBA)
