@@ -101,7 +101,7 @@ df=pd.DataFrame(list(zip(ids,klas_vectors,token_vectors, num_vectors)), columns=
 df.set_index('ids')
 
 
-df.insert(0, 'cor', 'JNLPBA') # dodajemo kolonu na prvom mestu, cor(naziv kolone), nazic korpusa (JNLPBA)
+df.insert(1, 'cor', 'JNLPBA') # dodajemo kolonu na prvom mestu, cor(naziv kolone), nazic korpusa (JNLPBA)
 
 df['labels'] = df['labels'].apply(lambda x: np.array(x)) #konvertovanje liste u niz
 df['labels'] = df['labels'].apply(lambda x: x.astype(np.uint8)) # forsiranje tipa unisgnedInt
