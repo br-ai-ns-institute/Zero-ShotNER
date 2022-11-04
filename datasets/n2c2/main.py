@@ -60,8 +60,8 @@ if __name__ == '__main__':
             csv_writer.writerow([type,token_line,ann_line])
     csvfile.close()
     df = pd.DataFrame(list(zip(ids, classes, texts_arr, labels)),
-                      columns=['id', 'class', 'text', 'labels'])
-    df.set_index('id')
+                      columns=['ids', 'class', 'text', 'labels'])
+    df.set_index('ids')
 
     df.insert(0, 'cor', 'n2c2')  # dodajemo kolonu na prvom mestu, cor(naziv kolone), naziv korpusa (JNLPBA)
 
