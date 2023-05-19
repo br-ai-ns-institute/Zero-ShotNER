@@ -27,7 +27,7 @@ The conversion process can be implemented using the following steps:
 ##### Drugs 
 - n2c2/i2b2 
 
-### Merged dataset is in table below
+#### Merged dataset is in table below
 <img width="599" alt="objedinjeni_dataset" src="https://github.com/br-ai-ns-institute/Zero-ShotNER/assets/8451505/de4a9f46-f5f2-4574-aacc-0df3f3325990">
 
 ## Preprocessing Task Steps
