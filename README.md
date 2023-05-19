@@ -50,6 +50,6 @@ In order to train the model, the following steps are performed:
 
 2. **Using the Entire Dataset for Validation:** The entire dataset, including all classes, is used for validation. This ensures that the model's performance is evaluated on a diverse set of examples, representing all the classes present in the dataset. Validation helps in monitoring the model's generalization ability and detecting potential overfitting.
 
-3.**Testing on Unseen Class Examples (Zero-Shot) or Few-Shot Learning:** Testing is conducted on examples from a class that has not been seen during training, known as zero-shot testing. This evaluation scenario assesses the model's ability to generalize and make predictions on entirely new classes. Alternatively, the model can be fine-tuned or retrained with a small number (1, 10, or 100) of examples from the target class, known as few-shot learning. This approach allows the model to adapt and improve its performance specifically for the target class.
+3. **Testing on Unseen Class Examples (Zero-Shot or Few-Shot Learning:)** Testing is conducted on examples from a class that has not been seen during training, known as zero-shot testing. This evaluation scenario assesses the model's ability to generalize and make predictions on entirely new classes. Alternatively, the model can be fine-tuned or retrained with a small number (1, 10, or 100) of examples from the target class, known as few-shot learning. This approach allows the model to adapt and improve its performance specifically for the target class.
 
 
