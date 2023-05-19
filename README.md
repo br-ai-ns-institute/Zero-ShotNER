@@ -1,6 +1,6 @@
 # Zero-Shot BioNER
 Zero-Shot and Few-Shot methods for NER in biomedical domain
-# Dataset Conversion
+## Dataset Conversion
 
 Each of the datasets has been converted using a specific script to a format where the named entity (NE) has been transformed to 1, while everything else has been labeled as 0.
 
@@ -11,21 +11,21 @@ The conversion process can be implemented using the following steps:
 3. Apply the conversion function to each dataset separately.
 4. Merge the converted datasets into a single dataset.
 
-## Converted datasets
+### Converted datasets
 
-#### Chemical NER 
+##### Chemical NER 
 - CHEMDNER 
 - CDR-Chemical 
 
-#### Disease NER 
+##### Disease NER 
 - NCBI-Disease 
 - CDR-Disease 
 
-#### Gene/Protein NER 
+##### Gene/Protein NER 
 - JNLPBA 
 
-#### Drugs 
+##### Drugs 
 - n2c2/i2b2 
 
-## Merged dataset is in table below
+### Merged dataset is in table below
 <img width="599" alt="objedinjeni_dataset" src="https://github.com/br-ai-ns-institute/Zero-ShotNER/assets/8451505/de4a9f46-f5f2-4574-aacc-0df3f3325990">
