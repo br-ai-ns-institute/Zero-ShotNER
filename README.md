@@ -52,3 +52,4 @@ In order to train the model, the following steps are performed:
 
 3.**Testing on Unseen Class Examples (Zero-Shot) or Few-Shot Learning:** Testing is conducted on examples from a class that has not been seen during training, known as zero-shot testing. This evaluation scenario assesses the model's ability to generalize and make predictions on entirely new classes. Alternatively, the model can be fine-tuned or retrained with a small number (1, 10, or 100) of examples from the target class, known as few-shot learning. This approach allows the model to adapt and improve its performance specifically for the target class.
 
+
