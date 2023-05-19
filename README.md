@@ -1,5 +1,5 @@
 # Zero-Shot BioNER
-Zero-Shot and Few-Shot methods for NER in biomedical domain
+Zero-Shot and Few-Shot methods for NER in biomedical domain. This repository is a resulting code from research collaboration between Bayer Pharma and The Institute for Artificial Intelligence Research and Development of Serbia.
 ## Dataset Conversion
 
 Each of the datasets has been converted using a specific script to a format where the named entity (NE) has been transformed to 1, while everything else has been labeled as 0.
