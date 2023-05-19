@@ -42,3 +42,12 @@ To preprocess the dataseт, follow the steps outlined below:
 4. **Transforming into Torch Dataset:** Convert the preprocessed dataset into a Torch dataset, which will serve as the input for your model. The Torch dataset provides compatibility with PyTorch. This conversion allows for seamless integration of the dataset with your model and facilitates efficient training and evaluation.
 
 By following these preprocessing steps, you will have a properly prepared dataset ready for training your model. Ensure that each step is executed accurately and thoroughly to ensure the reliability and effectiveness of your results.
+
+## Model Training and Testing
+In order to train the model, the following steps are performed:
+
+1. **Omitting Examples of One Class in Training Set:** During training, examples from one class are omitted from the training set. This technique helps the model focus on learning patterns and distinguishing features of the remaining classes. By excluding examples of a specific class, the model is forced to generalize and make accurate predictions on unseen instances of that class.
+
+2. **Using the Entire Dataset for Validation:** The entire dataset, including all classes, is used for validation. This ensures that the model's performance is evaluated on a diverse set of examples, representing all the classes present in the dataset. Validation helps in monitoring the model's generalization ability and detecting potential overfitting.
+
+3.**Testing on Unseen Class Examples (Zero-Shot) or Few-Shot Learning:** Testing is conducted on examples from a class that has not been seen during training, known as zero-shot testing. This evaluation scenario assesses the model's ability to generalize and make predictions on entirely new classes. Alternatively, the model can be fine-tuned or retrained with a small number (1, 10, or 100) of examples from the target class, known as few-shot learning. This approach allows the model to adapt and improve its performance specifically for the target class.
