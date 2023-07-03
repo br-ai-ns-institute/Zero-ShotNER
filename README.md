@@ -55,7 +55,7 @@ In order to train the model, the following steps are performed:
 ## Citation
 
 Please cite:
-Košprdić, Miloš, et al. "From Zero to Hero: Harnessing Transformers for Biomedical Named Entity Recognition in Zero-and Few-Shot Contexts." Available at SSRN 4463335.
+Košprdić, Miloš, et al. "From Zero to Hero: Harnessing Transformers for Biomedical Named Entity Recognition in Zero-and Few-Shot Contexts." Available at SSRN 4463335. [https://arxiv.org/abs/2305.04928](https://arxiv.org/abs/2305.04928)
 
 Bibtex:
 ```
